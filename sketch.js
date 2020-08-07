@@ -22,7 +22,7 @@ function setup(){
 
 
     var ball_options ={
-        restitution: 10
+        restitution: 1
     };
 
     ball = Bodies.circle(200,190,15,ball_options);
